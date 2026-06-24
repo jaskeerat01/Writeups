@@ -25,7 +25,7 @@ Password: <b>whitelist-crawl</b>
 
 ## Level 4
 Check all the repos for the email id if not found, then see commit log using **.patch** after the commit link
-> https://github.com/example/example.patch\
+> https://github.com/example/example.patch \
 > check the From Header in it
 <details>
 Email Found: pt103368@PT103368.corp.int <br>
