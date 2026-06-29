@@ -13,8 +13,8 @@ Password:<b>2300056</b>
 Process the text file and use fuzzer to check the response code 
 <details>
 <summary>View Solution</summary>
-Process it using the command: `sed 's|http://inovace.eu/url/||' url.txt > output.txt`<br>
-Now use fuzzer to check it: `ffuf -u 'http://inovace.eu/url/FUZZ' -w output.txt -r -mc 200` <br>
+Process it using the command: sed 's|http://inovace.eu/url/||' url.txt > output.txt<br>
+Now use fuzzer to check it: ffuf -u 'http://inovace.eu/url/FUZZ' -w output.txt -r -mc 200 <br>
 Correct Path: vkeb6uz6.html<br>
 Password: <b>solution47</b>
 </details>
@@ -39,7 +39,7 @@ Password: <b>sunshine</b>
 Don't use the experience (years of experience increase every year) and city parameters in a google dork
 <details>
 <summary>View Solution</summary>
-Dork Used: `site:freelancer.com/u/ AND "Network+Engineer" AND "February 2017"` <br>
+Dork Used: site:freelancer.com/u/ AND "Network+Engineer" AND "February 2017" <br>
 Profile Link: <a href="https://www.freelancer.com/u/lawrence37">Freelancer</a><br>
 Password: <b>lawrence37</b>
 </details>
@@ -48,7 +48,7 @@ Password: <b>lawrence37</b>
 Use the characterstics of the person for framing the google dork instead of using Austin in the dork
 <details>
 <summary>View Solution</summary>
-Dork Used: `site:airbnb.com/rooms/ "San Francisco" AND "14 years hosting" AND "outdoor enthusiast"`<br>
+Dork Used: site:airbnb.com/rooms/ "San Francisco" AND "14 years hosting" AND "outdoor enthusiast"<br>
 Listing Link: <a href="https://www.airbnb.co.in/rooms/571142"> AirBnB </a><br>
 Password: <b>adam</b>
 </details>
@@ -57,7 +57,7 @@ Password: <b>adam</b>
 Reverse search for the type of image processing and frame a google dork to find him
 <details>
 <summary>View Solution</summary>
-Dork Used: `site:stackoverflow.com/users/ "France" "hyperspectral image processing" "developer"`<br>
+Dork Used: site:stackoverflow.com/users/ "France" "hyperspectral image processing" "developer"<br>
 Profile Link: <a href="https://stackoverflow.com/users/6093326/gwen">StackOverflow Profile </a><br>
 Password: <b>6093326</b>
 </details>
@@ -66,7 +66,7 @@ Password: <b>6093326</b>
 Use the previously used github rest api to find the username
 <details>
 <summary>View Solution</summary>
-Link Used: `https://api.github.com/user/2314988`<br>
-Checkout the `login` parameter of the returned JSON payload.<br>
+Link Used: https://api.github.com/user/2314988<br>
+Checkout the login parameter of the returned JSON payload.<br>
 Password: <b>vastrolorde</b>
 </details>
