@@ -1,5 +1,5 @@
 # OSINT UK CTF Challenge Writeup
-**Operation:** Op_Kinetic  
+**Operation:** Operation Kinetic  
 **Target Focus:** Amgueddfa Cymru (St Fagans National Museum of History)  
 **Status:** Completed (5/5 Flags Captured)
 
